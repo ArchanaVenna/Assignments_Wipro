@@ -1,0 +1,275 @@
+2025-08-09T09:35:30.329+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : Starting QuizApplication using Java 21.0.7 with PID 17824 (D:\sts\sts-4.31.0.RELEASE\QuizAppMonorepo\target\classes started by sss in D:\sts\sts-4.31.0.RELEASE\QuizAppMonorepo)
+2025-08-09T09:35:30.335+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T09:35:30.445+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-09T09:35:30.445+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-09T09:35:31.828+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T09:35:31.917+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2025-08-09T09:35:32.630+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-09T09:35:32.646+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T09:35:32.646+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-09T09:35:32.709+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T09:35:32.709+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2259 ms
+2025-08-09T09:35:32.935+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T09:35:33.045+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-09T09:35:33.105+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-09T09:35:33.665+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T09:35:33.713+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T09:35:34.285+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fa81938
+2025-08-09T09:35:34.288+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T09:35:34.445+05:30  WARN 17824 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-09T09:35:34.471+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-09T09:35:35.661+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-09T09:35:35.849+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T09:35:36.200+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-09T09:35:36.382+05:30  WARN 17824 --- [Quiz-App-Monorepo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T09:35:36.975+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-09T09:35:37.031+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-09T09:35:37.045+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : Started QuizApplication in 7.605 seconds (process running for 9.078)
+2025-08-09T09:36:22.131+05:30  INFO 17824 --- [Quiz-App-Monorepo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-09T09:36:22.131+05:30  INFO 17824 --- [Quiz-App-Monorepo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-09T09:36:22.134+05:30  INFO 17824 --- [Quiz-App-Monorepo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-08-09T09:37:01.141+05:30  INFO 17824 --- [Quiz-App-Monorepo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-09T09:37:01.148+05:30  INFO 17824 --- [Quiz-App-Monorepo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-09T09:37:01.156+05:30  INFO 17824 --- [Quiz-App-Monorepo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-09T09:37:01.186+05:30  INFO 17824 --- [Quiz-App-Monorepo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T09:37:01.188+05:30  INFO 17824 --- [Quiz-App-Monorepo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-09T09:37:01.210+05:30  INFO 17824 --- [Quiz-App-Monorepo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-09T09:37:01.322+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : Starting QuizApplication using Java 21.0.7 with PID 17824 (D:\sts\sts-4.31.0.RELEASE\QuizAppMonorepo\target\classes started by sss in D:\sts\sts-4.31.0.RELEASE\QuizAppMonorepo)
+2025-08-09T09:37:01.322+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T09:37:01.772+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T09:37:01.789+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2025-08-09T09:37:01.959+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-09T09:37:01.961+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T09:37:01.961+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-09T09:37:01.988+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T09:37:01.989+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 666 ms
+2025-08-09T09:37:02.045+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T09:37:02.049+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-09T09:37:02.094+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T09:37:02.095+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-08-09T09:37:02.118+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f32cd65
+2025-08-09T09:37:02.119+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-08-09T09:37:02.120+05:30  WARN 17824 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-09T09:37:02.121+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-09T09:37:02.184+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-09T09:37:02.229+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T09:37:02.358+05:30  WARN 17824 --- [Quiz-App-Monorepo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T09:37:02.545+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-09T09:37:02.565+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-09T09:37:02.580+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : Started QuizApplication in 1.282 seconds (process running for 94.612)
+2025-08-09T09:37:02.584+05:30  INFO 17824 --- [Quiz-App-Monorepo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-09T09:37:12.236+05:30  INFO 17824 --- [Quiz-App-Monorepo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-09T09:37:12.236+05:30  INFO 17824 --- [Quiz-App-Monorepo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-09T09:37:12.238+05:30  INFO 17824 --- [Quiz-App-Monorepo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-09T09:44:22.590+05:30  INFO 17824 --- [Quiz-App-Monorepo] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-09T09:44:22.592+05:30  INFO 17824 --- [Quiz-App-Monorepo] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-09T09:44:22.599+05:30  INFO 17824 --- [Quiz-App-Monorepo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-09T09:44:22.601+05:30  INFO 17824 --- [Quiz-App-Monorepo] [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T09:44:22.602+05:30  INFO 17824 --- [Quiz-App-Monorepo] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-08-09T09:44:22.611+05:30  INFO 17824 --- [Quiz-App-Monorepo] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-08-09T10:37:05.125+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : Starting QuizApplication using Java 21.0.7 with PID 7464 (D:\sts\sts-4.31.0.RELEASE\QuizAppMonorepo\target\classes started by sss in D:\sts\sts-4.31.0.RELEASE\QuizAppMonorepo)
+2025-08-09T10:37:05.153+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T10:37:05.213+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-09T10:37:05.213+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-09T10:37:06.399+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T10:37:06.460+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2025-08-09T10:37:07.119+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-09T10:37:07.135+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T10:37:07.135+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-09T10:37:07.202+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T10:37:07.202+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1988 ms
+2025-08-09T10:37:07.423+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T10:37:07.509+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-09T10:37:07.560+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-09T10:37:07.899+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T10:37:07.935+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T10:37:08.405+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2861ffa8
+2025-08-09T10:37:08.407+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T10:37:08.506+05:30  WARN 7464 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-09T10:37:08.530+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-09T10:37:09.585+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-09T10:37:09.723+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T10:37:10.043+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-09T10:37:10.222+05:30  WARN 7464 --- [Quiz-App-Monorepo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T10:37:10.670+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-09T10:37:10.714+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-09T10:37:10.722+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : Started QuizApplication in 6.149 seconds (process running for 7.222)
+2025-08-09T10:37:19.693+05:30  INFO 7464 --- [Quiz-App-Monorepo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-09T10:37:19.693+05:30  INFO 7464 --- [Quiz-App-Monorepo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-09T10:37:19.695+05:30  INFO 7464 --- [Quiz-App-Monorepo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-09T10:38:55.695+05:30  INFO 7464 --- [Quiz-App-Monorepo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-09T10:38:55.704+05:30  INFO 7464 --- [Quiz-App-Monorepo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-09T10:38:55.719+05:30  INFO 7464 --- [Quiz-App-Monorepo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-09T10:38:55.723+05:30  INFO 7464 --- [Quiz-App-Monorepo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T10:38:55.748+05:30  INFO 7464 --- [Quiz-App-Monorepo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-09T10:38:55.759+05:30  INFO 7464 --- [Quiz-App-Monorepo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-09T10:38:55.845+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : Starting QuizApplication using Java 21.0.7 with PID 7464 (D:\sts\sts-4.31.0.RELEASE\QuizAppMonorepo\target\classes started by sss in D:\sts\sts-4.31.0.RELEASE\QuizAppMonorepo)
+2025-08-09T10:38:55.846+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T10:38:56.110+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T10:38:56.124+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2025-08-09T10:38:56.337+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-09T10:38:56.339+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T10:38:56.339+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-09T10:38:56.360+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T10:38:56.361+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 513 ms
+2025-08-09T10:38:56.402+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T10:38:56.404+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-09T10:38:56.412+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T10:38:56.413+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-08-09T10:38:56.436+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28adeb10
+2025-08-09T10:38:56.437+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-08-09T10:38:56.438+05:30  WARN 7464 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-09T10:38:56.440+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-09T10:38:56.499+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-09T10:38:56.547+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T10:38:56.762+05:30  WARN 7464 --- [Quiz-App-Monorepo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T10:38:56.940+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-09T10:38:56.965+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-09T10:38:56.969+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : Started QuizApplication in 1.147 seconds (process running for 113.469)
+2025-08-09T10:38:56.970+05:30  INFO 7464 --- [Quiz-App-Monorepo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-09T10:39:01.973+05:30  INFO 7464 --- [Quiz-App-Monorepo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-09T10:39:01.973+05:30  INFO 7464 --- [Quiz-App-Monorepo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-09T10:39:01.975+05:30  INFO 7464 --- [Quiz-App-Monorepo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-09T10:41:52.280+05:30 ERROR 7464 --- [Quiz-App-Monorepo] [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.wipro.archana.quizappmonorepo.excep.Question_Not_Found: Question with Id is not present: 20] with root cause
+
+com.wipro.archana.quizappmonorepo.excep.Question_Not_Found: Question with Id is not present: 20
+	at com.wipro.archana.quizappmonorepo.services.QuestionServiceImpl.lambda$0(QuestionServiceImpl.java:44) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.wipro.archana.quizappmonorepo.services.QuestionServiceImpl.updateQuestionById(QuestionServiceImpl.java:44) ~[classes/:na]
+	at com.wipro.archana.quizappmonorepo.controller.QuestionController.updateQuestionById(QuestionController.java:49) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
+	at com.wipro.archana.quizappmonorepo.controller.QuestionController$$SpringCGLIB$$0.updateQuestionById(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-09T10:44:28.772+05:30  INFO 7464 --- [Quiz-App-Monorepo] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 488 ms
+2025-08-09T10:53:02.987+05:30  INFO 7464 --- [Quiz-App-Monorepo] [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-09T10:53:02.988+05:30  INFO 7464 --- [Quiz-App-Monorepo] [RMI TCP Connection(19)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-09T10:53:02.996+05:30  INFO 7464 --- [Quiz-App-Monorepo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-09T10:53:02.998+05:30  INFO 7464 --- [Quiz-App-Monorepo] [RMI TCP Connection(19)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T10:53:03.000+05:30  INFO 7464 --- [Quiz-App-Monorepo] [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-08-09T10:53:03.005+05:30  INFO 7464 --- [Quiz-App-Monorepo] [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-08-09T11:18:57.432+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : Starting QuizApplication using Java 21.0.7 with PID 10744 (D:\sts\sts-4.31.0.RELEASE\QuizAppMonorepo\target\classes started by sss in D:\sts\sts-4.31.0.RELEASE\QuizAppMonorepo)
+2025-08-09T11:18:57.438+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T11:18:57.499+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-09T11:18:57.504+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-09T11:18:58.700+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T11:18:58.773+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2025-08-09T11:18:59.558+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-09T11:18:59.577+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T11:18:59.577+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-09T11:18:59.651+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T11:18:59.651+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2147 ms
+2025-08-09T11:18:59.897+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T11:18:59.986+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-09T11:19:00.045+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-09T11:19:01.170+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T11:19:01.222+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T11:19:01.979+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d4726ce
+2025-08-09T11:19:01.982+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T11:19:02.112+05:30  WARN 10744 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-09T11:19:02.136+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-09T11:19:03.277+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-09T11:19:03.474+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T11:19:03.902+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-09T11:19:04.334+05:30  WARN 10744 --- [Quiz-App-Monorepo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T11:19:04.981+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-09T11:19:05.029+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-09T11:19:05.042+05:30  INFO 10744 --- [Quiz-App-Monorepo] [restartedMain] c.w.a.quizappmonorepo.QuizApplication    : Started QuizApplication in 8.204 seconds (process running for 9.531)
+2025-08-09T11:19:13.242+05:30  INFO 10744 --- [Quiz-App-Monorepo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-09T11:19:13.243+05:30  INFO 10744 --- [Quiz-App-Monorepo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-09T11:19:13.244+05:30  INFO 10744 --- [Quiz-App-Monorepo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-09T11:19:40.886+05:30  INFO 10744 --- [Quiz-App-Monorepo] [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-09T11:19:40.890+05:30  INFO 10744 --- [Quiz-App-Monorepo] [RMI TCP Connection(3)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-09T11:19:40.900+05:30  INFO 10744 --- [Quiz-App-Monorepo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-09T11:19:40.907+05:30  INFO 10744 --- [Quiz-App-Monorepo] [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T11:19:40.913+05:30  INFO 10744 --- [Quiz-App-Monorepo] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-09T11:19:40.937+05:30  INFO 10744 --- [Quiz-App-Monorepo] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
