@@ -1,0 +1,23 @@
+<div class="container mt-4">
+<h2>Calculator</h2>
+<br>
+<div class="mb-3">
+    <label>First Number:</label>
+    <input type="number" [(ngModel)]="num1" class="form-control" />
+  </div>
+<br>
+  <div class="mb-3">
+    <label>Second Number:</label>
+    <input type="number" [(ngModel)]="num2" class="form-control" />
+  </div>
+  <br>
+
+  <div class="mb-3">
+    <button class="btn btn-primary me-2" (click)="add()">+</button>
+    <button class="btn btn-success me-2" (click)="subtract()">-</button>
+    <button class="btn btn-warning me-2" (click)="multiply()">*</button>
+    <button class="btn btn-danger me-2" (click)="divide()">/</button>
+  </div>
+<br>
+  <h4 >Result: {{ result }}</h4>
+</div>

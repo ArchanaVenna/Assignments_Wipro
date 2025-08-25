@@ -1,0 +1,46 @@
+<div class="Feedback-container">
+<mat-card class="feedback-card">
+  <h2>Feedback Form</h2>
+
+  <form [formGroup]="feedbackForm" (ngSubmit)="onSubmit()">
+    
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" >
+      <mat-error *ngIf="f['name'].hasError('required') && (f['name'].dirty || f['name'].touched)">Name is required</mat-error>
+    </mat-form-field><br>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" >
+      <mat-error *ngIf="f['email'].hasError('required')&& (f['email'].dirty || f['email'].touched)">
+        Please enter a valid email
+      </mat-error>
+    </mat-form-field> <br>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Subject</mat-label>
+      <input matInput formControlName="subject" maxlength="40" >
+      <mat-error *ngIf="f['subject'].hasError('required') && (f['subject'].dirty || f['subject'].touched)">
+        Subject is required (max 40 chars)
+      </mat-error>
+    </mat-form-field><br>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Comments / Issue</mat-label>
+      <textarea matInput formControlName="comments" maxlength="350"></textarea>
+      <mat-error *ngIf="f['comments'].hasError('rquired') && (f['comments'].dirty ||f['comments'].touched)">
+        Please enter comments (max 350 chars)
+      </mat-error>
+    </mat-form-field> <br>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="feedbackForm.invalid">
+      Submit
+    </button>
+  </form>
+
+  <div *ngIf="submitted" class="thank-you">
+    <p><strong>Thank you!</strong> We will get back to you shortly!</p>
+  </div>
+</mat-card>
+</div>

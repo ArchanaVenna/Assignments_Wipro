@@ -1,0 +1,63 @@
+
+.title{
+    text-align: center;
+}
+.filter {
+  /* margin: 16px;
+  gap:20px; */
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between buttons */
+  margin-bottom: 20px;
+  color: #4a5759;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+ 
+}
+
+mat-card {
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.top-rated {
+  border: 2px solid #ff9800;
+}
+
+.rating mat-icon {
+  color: gold;
+}
+
+.grids {
+ background: linear-gradient(135deg, #ffcc80, #ff8a65);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+/* Song grid layout */
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+} */
+
+/* Song card styling
+.song-card {
+ background: linear-gradient(135deg, #ffcc80, #ff8a65);
+  color: #222;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.song-card:hover {
+  transform: translateY(-5px);
+/* }   */
